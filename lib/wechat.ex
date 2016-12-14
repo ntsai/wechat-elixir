@@ -5,7 +5,7 @@ defmodule Wechat do
 
   def config do
     default_config
-    |> Keyword.merge(Application.get_env(:wechat, Wechat, []))
+    |> Keyword.merge(Application.get_env(:xin, Wechat, []))
   end
 
   defp default_config do
